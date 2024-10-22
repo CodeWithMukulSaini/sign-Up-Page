@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=512w&id=odIgAmgZrblT&format=png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="w-full h-screen bg-zinc-300 flex justify-center items-center">
+        <div class="form-layout w-[85vw] lg:w-[50vw] md:w-[70vw] h-[90vh] lg:h-[70vh] md:h-[90vh] bg-[#80C4FF] lg:bg-gradient-to-b from-[#64A1FE] to-teal-50 rounded-3xl overflow-hidden flex flex-col lg:flex-row">
+            <div  class="w-full h-[20vh] lg:h-full bg-gradient-to-r from-[#81C6FF] bg-[#68A2FE] lg:rounded-br-[8vh] flex items-center justify-between">
+            <div class="w-1/2 lg:w-[100%] h-full lg:h-[50%] flex items-start justify-start overflow-hidden">
+                <img class="w-full h-full object-cover lg:hidden" src="../images/nurse.png" alt="">
+                <img class="w-full h-full object-cover hidden lg:block" src="../images/login.png" alt="">
+            </div>
+           <div class="px-3 md:px-7 mt-6 items-center justify-center flex flex-col lg:hidden">
+            <h1 class="text-blue-500 text-4xl md:text-6xl font-light font-[gilroy] tracking-tight">Sign Up</h1>
+            <p class="text-white font-semibold text-sm md:text-xl font-[gilroy-light] mt-2 md:mt-4 tracking-wider">To Continue</p>
+           </div>
+            </div>
+            <div class="w-full h-[75vh] lg:h-full md:h-[80vh] bg-[#F3F7FF] rounded-tl-[8vh] lg:flex flex-col items-center justify-center ">
+                <div class="w-full flex items-center justify-center gap-4 heading">
+                    <h1 class="px-4 py-1 text-blue-500 text-lg md:text-3xl lg:text-xl md:mt-4 font-semibold cursor-pointer signup">sign Up</h1>
+                    <h1 class="px-6 py-2 text-zinc-400 text-lg md:text-3xl lg:text-xl md:mt-4 font-semibold cursor-pointer signin">sign In </h1>
+                </div>
+                <div class="underline w-[8vw] md:w-[7vw] lg:w-[3vw] h-[3px] bg-blue-500 rounded-xl mb-3 mx-[30%] md:mt-2 md:mx-[35%] lg:ml-[5%]"></div>
+                <form class="form w-full h-full flex flex-col px-10 gap-3 md:gap-5 lg:gap-3 font-[gilroy-light] ">
+                    <label for="username" class="text-sm md:text-2xl lg:text-lg font-[gilroy-light] text-blue-500 text-xl font-semibold font-[gilroy-bold] fullName ">Full Name</label>
+                    <input type="text" id="username" placeholder="Enter your Name" class="w-full h-10 rounded-md px-2 border-b-2 border-blue-400 bg-transparent md:text-2xl lg:text-sm focus:outline-none focus:ring focus:ring-blue-400 focus:border-none nameInput">
+                    <label for="username" class="text-sm md:text-2xl lg:text-lg font-[gilroy-light] text-blue-500 text-xl font-semibold font-[gilroy-bold]">Email</label>
+                    <input type="text" id="username" placeholder="Enter your Email" class="w-full h-10 rounded-md px-2 border-b-2 border-blue-400 bg-transparent md:text-2xl lg:text-sm focus:outline-none focus:ring focus:ring-blue-400 focus:border-none">
+                    <label for="username" class="text-sm md:text-2xl lg:text-lg font-[gilroy-light] text-blue-500 text-xl font-semibold font-[gilroy-bold]">Password</label>
+                    <input type="text" id="username" placeholder="Enter your Password" class="w-full h-10 rounded-md px-2 border-b-2 border-blue-400 bg-transparent md:text-2xl lg:text-sm focus:outline-none focus:ring focus:ring-blue-400 focus:border-none">
+                    <button class="py-2 md:py-3 lg:py-2 bg-blue-500 text-white rounded-md mt-4 md:text-3xl lg:text-xl md:mt-6 formBtn" >Sign Up</button>
+                    <p class="text-center text-sm md:text-2xl lg:text-sm font-[gilroy-light] text-red-500 font-semibold font-[gilroy-bold] mt-2 md:mt-4 suggestion">I have an Account<a href="#" class="text-blue-500 lg:text-sm"> Sign In</a></p>
+                </form>
+              
+            </div>
+        </div>
+    </main>
+
+
+    <!-- <div class="form-layout w-[60vw] h-[80vh] bg-gradient-to-b from-[#64A1FE] to-[#F3F7FF] rounded-3xl  overflow-hidden flex flex-col">
+        <div  class="w-full h-[30vh] bg-gradient-to-r from-[#81C6FF] to-[#64A1FE] bg-[#68A2FE] rounded-br-[4vw]"></div>
+        <div class="w-full h-1/2 bg-[#F3F7FF] rounded-tl-[4vw]"></div>
+    </div -->
+  <script src="script.js"></script>
+</body>
+</html>
